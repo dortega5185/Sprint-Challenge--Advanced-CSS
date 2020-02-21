@@ -1,1 +1,18 @@
 // Mixins Here
+.h1-style(){
+    text-align: center;
+    font-size: 4.4rem;
+}
+.btn-style(@color, @bg-color){
+    background-color: @bg-color;
+    color: @color;
+    font-size: 1.8rem;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    width: 31%;
+    @media @phone{
+        width: 100%;
+        padding: 25px 20px;
+      }
+}
