@@ -3,7 +3,6 @@
     background-color: @nav-bg;
     padding-top: 10px;
     border: 1px solid @nav-border;
-
     
     h1{
       .h1-style();
@@ -16,6 +15,12 @@
             text-decoration: none;
             color: @nav-font;
             margin: 20px 22px 12px 22px;
+            @media @phone{
+              margin: 20px 15px 12px 15px;
+          }
+        }
+        a:hover{
+          .ease-in();
         }
       }
   }

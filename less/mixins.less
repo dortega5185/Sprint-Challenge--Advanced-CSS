@@ -2,6 +2,9 @@
 .h1-style(){
     text-align: center;
     font-size: 4.4rem;
+    @media @phone{
+        font-size: 4rem;
+    }
 }
 .btn-style(@color, @bg-color){
     background-color: @bg-color;
@@ -12,7 +15,15 @@
     text-align: center;
     width: 31%;
     @media @phone{
-        width: 100%;
-        padding: 25px 20px;
+        width: 89%;
+        padding: 25px 10px;
+        margin: 0 20px;
       }
 }
+.ease-in(){
+    border: 2px solid;
+    border-radius: 25px;
+    padding: 10px;
+    background-color: teal;
+    transition: @ease;
+    }
