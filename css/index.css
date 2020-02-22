@@ -212,7 +212,7 @@ footer {
 }
 @media (max-width: 500px) {
   .home .intro img {
-    height: 17vh;
+    height: 13vh;
   }
 }
 .home .intro h2 {
@@ -246,7 +246,7 @@ footer {
 @media (max-width: 500px) {
   .home .space-images img {
     width: 91%;
-    height: 45vh;
+    height: 34vh;
     margin: 20px 0px 20px 24px;
   }
 }
@@ -353,6 +353,6 @@ footer {
 @media (max-width: 500px) {
   .home .walk .walk-img img {
     width: 96%;
-    height: 45vh;
+    height: 35vh;
   }
 }
